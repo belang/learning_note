@@ -32,3 +32,22 @@ Penalty Function Methods
 ========================
 
 source: http://web.engr.oregonstate.edu/~paasch/classes/me517/week7/penalty.html
+
+Penalty Terms
+=============
+
+Regularization works by biasing data towards particular values (such as small values near zero). The bias is achieved by adding a tuning parameter to encourage those values:
+
+* L1 regularization adds an L1 penalty equal to the absolute value of the magnitude of coefficients.
+  In other words, it limits the size of the coefficients.
+  L1 can yield sparse models (i.e. models with few coefficients);
+  Some coefficients can become zero and eliminated. LASSO_ regression uses this method.
+* L2 regularization adds an L2 penalty equal to the square of the magnitude of coefficients.
+  L2 will not yield sparse models and all coefficients are shrunk by the same factor (none are eliminated).
+  Ridge regression and SVMs use this method.
+* Elastic nets combine L1 & L2 methods, but do add a hyperparameter (see this paper by Zou and Hastie).
+
+LASSO
+=====
+
+Least Absolute Shringkage and Selection Operator
