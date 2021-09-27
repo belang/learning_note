@@ -51,3 +51,25 @@ LASSO
 =====
 
 Least Absolute Shringkage and Selection Operator
+
+The author Statist[#Statist]_ explained his idea and the development of LASSO regression in 2011.
+
+algorithm
+---------
+
+Origin used an off-the-shelf quadratic program solver.
+LARS[#LARS]_ gives an efficient way of solving the lasso.
+It is a type of co-ordinate descent algorithms, which are extremely simple and fast.
+
+The glmnet R language package implements the co-ordinate descent method for many popular models.
+
+Features
+--------
+
+sparsity
+
+Reference
+---------
+
+.. [#Statist] Regression shrinkage and selection via the lasso: a retrospective, J. R. Statist. Soc. B (2011) 73, Part 3, pp. 273–282
+.. [#LARS] Efron et al., 2002
