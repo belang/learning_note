@@ -54,6 +54,9 @@ Least Absolute Shringkage and Selection Operator
 
 The author Statist[#Statist]_ explained his idea and the development of LASSO regression in 2011.
 
+GreatLearning gives a general explain on [#What_is_LASSO]_
+
+
 algorithm
 ---------
 
@@ -73,3 +76,4 @@ Reference
 
 .. [#Statist] Regression shrinkage and selection via the lasso: a retrospective, J. R. Statist. Soc. B (2011) 73, Part 3, pp. 273–282
 .. [#LARS] Efron et al., 2002
+.. [#What_is_LASSO] https://www.mygreatlearning.com/blog/understanding-of-lasso-regression/
